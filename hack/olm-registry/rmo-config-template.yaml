@@ -45,7 +45,7 @@ objects:
       - key: api.openshift.com/sector
         operator: In
         values:
-${{SECTORS}}
+          ${{SECTORS}}
     resourceApplyMode: Sync
     resources:
     - apiVersion: v1
